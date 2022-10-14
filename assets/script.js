@@ -15,6 +15,13 @@ if (topic === 'HTML') {
   console.log('Please try again!');
 }
 
+// Function and calling the function
+function helloWorld() {
+  console.log("Hello, world, I am a function!")
+ }
+
+ helloWorld();
+
 var randomTopic = topics[Math.floor(Math.random() * topics.length)];
 
 function listTopics() {
